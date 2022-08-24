@@ -17,6 +17,28 @@ public class SavingsAccount {
         this.accountBalance = accountBalance;
 
     }
+    public SavingsAccount() {
 
+    }
+
+
+    public void customer(String withdraw, String deposit, String checkBalance){
+        return;
+    }
+
+    public void savingsAccount(String debitCash,String creditCash,String transferFund){
+        return;
+    }
+    double debitCash() {
+        return 0;
+    }
+
+    double creditCash() {
+        return 0;
+    }
+
+    double fundTransfer() {
+        return 0;
+    }
 
 }
