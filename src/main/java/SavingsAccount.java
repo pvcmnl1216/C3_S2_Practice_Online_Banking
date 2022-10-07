@@ -22,19 +22,22 @@ public class SavingsAccount {
     }
 
 
-    public void customer(String withdraw, String deposit, String checkBalance){
+    public void customer(String withdraw, String deposit, String checkBalance) {
         return;
     }
 
-    public void savingsAccount(String debitCash,String creditCash,String transferFund){
+    public void savingsAccount(String debitCash, String creditCash, String transferFund) {
         return;
     }
-    double debitCash() {
-        return 0;
+
+    public double debitCash(double debitCash) {
+        double balance = accountBalance - debitCash;
+        return balance;
     }
 
-    double creditCash() {
-        return 0;
+    public double creditCash(double creditCash) {
+        double balance = accountBalance + creditCash;
+        return balance;
     }
 
     double fundTransfer() {
