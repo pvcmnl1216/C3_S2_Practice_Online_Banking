@@ -15,5 +15,6 @@ public class SavingsAccountImpl {
         System.out.println("creditCash = " + creditCash);
         double debitCash = savingsAccount.debitCash(123456.77);
         System.out.println("debitCash = " + debitCash);
+        System.out.println("TotalBalance = " + (savingsAccount.accountBalance + creditCash - debitCash));
     }
 }
